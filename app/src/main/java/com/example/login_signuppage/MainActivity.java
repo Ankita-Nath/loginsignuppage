@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
                 String pwd=password.getText().toString();
                 if(validatePassword(pwd)){
 
-                    Bundle bundle=new Bundle();
+                    Bundle bundle=new Bundle();    // passing data from from one activity to another
                     bundle.putString("username",uname);
                     bundle.putString("password",pwd);
 
